@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../splash_view/presentation/splash_view.dart';
+
 class IntroductionAnimationScreen extends StatefulWidget {
   const IntroductionAnimationScreen({Key? key}) : super(key: key);
 
@@ -31,7 +33,7 @@ class _IntroductionAnimationScreenState extends State<IntroductionAnimationScree
       body: ClipRect(
         child: Stack(
           children: [
-            // SplashView(animationController: _animationController!),
+            SplashView(animationController: _animationController!),
             // RelaxView(animationController: _animationController!),
             // CareView(animationController: _animationController!),
             // MoodDiaryVew(animationController: _animationController!),
