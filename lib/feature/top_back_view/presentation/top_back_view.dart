@@ -27,6 +27,7 @@ class TopBackSkipView extends StatelessWidget {
       ),
     );
 
+    /// Slide transition
     return SlideTransition(
       position: _animation,
       child: Padding(
